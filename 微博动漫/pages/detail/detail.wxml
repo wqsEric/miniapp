@@ -1,0 +1,15 @@
+<!--pages/detail/detail.wxml-->
+<view class="wrap">
+  <view class="list">
+    <view class="every" wx:for="{{listArr}}" wx:key="{{index}}">
+      <view class="left">
+        <image src="{{item.image_url}}" mode="widthFix"></image>
+      </view>
+      <view class="word">
+        <text class="nm">{{item.title}}</text>
+        <text>作者:{{item.extra.sina_nickname}}</text>
+        <text>{{item.extra.watching_focus}}</text>
+      </view>
+    </view>
+  </view>
+</view>

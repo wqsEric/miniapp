@@ -1,0 +1,51 @@
+<!--pages/home/home.wxml-->
+<view class="wrap">
+    <swiper circular autoplay>
+      <swiper-item>
+        <image src="../../images/1.png" mode="widthFix"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/1.png" mode="widthFix"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/1.png" mode="widthFix"></image>
+      </swiper-item>
+    </swiper>
+    <view class="dlist">
+      <view class="every">
+           <image src="../../images/2.png"  mode="widthFix"></image>
+           <text>放送表</text>
+      </view>
+      <view class="every">
+           <image src="../../images/3.png" mode="widthFix"></image>
+           <text>分类</text>
+      </view>
+      <view class="every">
+           <image src="../../images/4.png"  mode="widthFix"></image>
+           <text>榜单</text>
+      </view>
+      <view class="every">
+           <image src="../../images/5.png"  mode="widthFix"></image>
+           <text>完结</text>
+      </view>
+    </view>
+    <view class="content-one">
+      <view class="left">
+        <view class="red"></view>
+        <text>精品佳作</text>
+      </view>
+      <text class="more"  bindtap='ck'>查看更多</text>
+    </view>
+    <scroll-view class="all-box" scroll-x>
+      <view class="img-word">
+        <image src="../../images/8.png" mode="widthFix"></image>
+        <view class="nm">狂想恋曲</view>
+        <text>记住了，渣男，必须死</text>
+      </view>
+      <view class="img-word" bindtap='ck'>
+        <image src="../../images/8.png" mode="widthFix"></image>
+        <view class="nm">狂想恋曲</view>
+        <text>记住了，渣男，必须死</text>
+      </view>
+    </scroll-view>
+</view>
