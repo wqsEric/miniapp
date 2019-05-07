@@ -1,4 +1,4 @@
-# min
+# 微信小
 ##### 打开方式
 - 我们应该使用微信开发者工具，进行项目的导入
 > <img alt="./pic.png" mode="widthFix" src = './pic.PNG'>
